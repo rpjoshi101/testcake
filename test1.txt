@@ -1,1 +1,12 @@
 asfsf 1111111111111 asssssssssss dsds dsdsdsdsds xxxxxxxxxxxxx
+
+git branch -m feature_branch_name featurebranch
+git push -u origin featurebranch
+
+git diff master..featurebranch
+
+git checkout master
+
+git merge featurebranch
+
+git push origin featurebranch:master
